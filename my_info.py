@@ -6,3 +6,4 @@ print(name)
 print(address)
 print(phone)
 print(email)
+#깃 수정
