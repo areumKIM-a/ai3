@@ -127,7 +127,7 @@ for i in range(len(seats)):
             print("%3s"%"■",end="")
     print()'''
 
-scores=[]
+'''scores=[]
 
 while True:
     x=int(input('성적을 입력하세요(종료 시 -1 입력): '))
@@ -138,8 +138,22 @@ while True:
 sum=0
 for k in scores:
     sum=sum+k
-avg=sum/len(scores)
-print("합계: %d, 평균: %.2f"%(sum,avg))
+avg=sum%len(scores)
+print("합계: %d, 평균: %.2f"%(sum,avg))'''
 
+'''sum=0
+i=1
 
+while i<=10:
+    sum=sum+i
+    print("i의 값: %2d=> 합계: %2d"%(i,sum))
+    i=i+1
 
+sum=0
+i=500
+
+while i<=600:
+    if i%5==0:
+        sum=sum+i
+    i=i+1
+print("5의 배수 합계: %d"%(sum))'''
